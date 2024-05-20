@@ -8,7 +8,7 @@
 
 我们可以发现当循环1000次执行后，才会执行我们的后门函数：
 
-![image-20240520175547344](/石头剪刀布.assets/image-20240520175547344.png)
+![image-20240520175547344](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520175547344.png)
 
 所以现在关键就是如何让这1000次的循环运行完：
 
@@ -46,19 +46,19 @@ for i in range(0,1000):
 p.interactive()
 ```
 
-![image-20240520181243938](Pwn/石头剪刀布.assets/image-20240520181243938.png)
+![image-20240520181243938](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520181243938.png)
 
 这里运行的时间会久一点，毕竟有1000次，可以看到我们不仅成功拿到shell，而且也赢了1000次的石头剪刀布✌
 
-![image-20240520181350975](Pwn/石头剪刀布.assets/image-20240520181350975.png)
+![image-20240520181350975](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520181350975.png)
 
 **第二种：**就是直接nc连接，直接输入1000个字符，r,s,p都可以：
 
-![image-20240520181542062](Pwn/石头剪刀布.assets/image-20240520181542062.png)
+![image-20240520181542062](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520181542062.png)
 
-![image-20240520181530551](Pwn/石头剪刀布.assets/image-20240520181530551.png)
+![image-20240520181530551](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520181530551.png)
 
 尽管输了，但还是拿到shell啦
 
-![image-20240520180907888](Pwn/石头剪刀布.assets/image-20240520180907888.png)
+![image-20240520180907888](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520180907888.png)
 
