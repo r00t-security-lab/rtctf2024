@@ -56,7 +56,6 @@ p.interactive()
 
 ![image-20240520181542062](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520181542062.png)
 
-![image-20240520181530551](https://github.com/UUUU66666/rtctf2024/blob/patch-1/Pwn/%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83.assets/image-20240520181530551.png)
 
 尽管输了，但还是拿到shell啦
 
