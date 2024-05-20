@@ -4,11 +4,11 @@
 
 首先是一个1000次的for循环
 
-![image-20240520175408557](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520175408557.png)
+![image-20240520175408557](Pwn/石头剪刀布.assets/image-20240520181243938.png)
 
 我们可以发现当循环1000次执行后，才会执行我们的后门函数：
 
-![image-20240520175547344](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520175547344.png)
+![image-20240520175547344](Pwn/石头剪刀布.assets/image-20240520175547344.png)
 
 所以现在关键就是如何让这1000次的循环运行完：
 
@@ -46,19 +46,19 @@ for i in range(0,1000):
 p.interactive()
 ```
 
-![image-20240520181243938](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520181243938.png)
+![image-20240520181243938](Pwn/石头剪刀布.assets/image-20240520181243938.png)
 
 这里运行的时间会久一点，毕竟有1000次，可以看到我们不仅成功拿到shell，而且也赢了1000次的石头剪刀布✌
 
-![image-20240520181350975](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520181350975.png)
+![image-20240520181350975](Pwn/石头剪刀布.assets/image-20240520181350975.png)
 
 **第二种：**就是直接nc连接，直接输入1000个字符，r,s,p都可以：
 
-![image-20240520181542062](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520181542062.png)
+![image-20240520181542062](Pwn/石头剪刀布.assets/image-20240520181542062.png)
 
-![image-20240520181530551](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520181530551.png)
+![image-20240520181530551](Pwn/石头剪刀布.assets/image-20240520181530551.png)
 
 尽管输了，但还是拿到shell啦
 
-![image-20240520180907888](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240520180907888.png)
+![image-20240520180907888](Pwn/石头剪刀布.assets/image-20240520180907888.png)
 
