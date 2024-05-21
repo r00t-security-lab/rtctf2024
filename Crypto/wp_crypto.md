@@ -80,7 +80,7 @@ if __name__ == __name__:
 
 由题目“干支纪年法”可知，本题利用60为一甲子来进行数字的替换。
 
-![image-20240426103334430](C:/Users/ROG/AppData/Roaming/Typora/typora-user-images/image-20240426103334430.png)
+![image-20240426103334430](img/image-20240426103334430.png)
 
 简单的替换后得到原来的一组数据是：
 
